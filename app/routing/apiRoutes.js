@@ -12,7 +12,10 @@ module.exports = app => {
       
 
       
-       
+       //this is where the logic for matching user's data
+       //it would run through the arrays of users
+       //each time it would evaluate the user's answers to those of past users
+       //it would then return the name and photo of the profile that is most compatible to them
 
       
       res.json({
